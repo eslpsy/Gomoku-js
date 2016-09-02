@@ -69,11 +69,13 @@ for (var i=0; i<victoryCount; i++) {
 var chess = document.getElementById("chess");
 var context = chess.getContext("2d");
 
-context.strokeStyle = "#BFBFBF";
+context.strokeStyle = "#black";
 
-window.onload = function() {
+var board = new Image();
+board.src = "image/woodboard.jpg";
+board.onload = function() {
+	context.drawImage(board, 0, 0, 450, 450);
 	drawChessBoard();
-	
 }
 //画一个棋盘
 var drawChessBoard = function() {

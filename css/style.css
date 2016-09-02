@@ -1,5 +1,33 @@
+.warp{
+	width: 805px;
+	height: 520px;
+	margin: 20px auto;
+}
+.left,.right{
+	float: left;
+}
+.img{
+	height: 520px;
+}
+.middle{
+	float: left;
+}
+.bottom{
+	width: 452px;
+}
+p{
+	color: white;
+	font-size: 17px;
+	letter-spacing: 20px;
+	text-align: center;
+	line-height: 17px;
+	width: 452px;
+	height: 17px;
+}
 canvas {
 	display:block;
-	margin: 50px auto;
-	border: solid darkolivegreen 2px;
+}
+body{
+	margin: 0;
+	background-color: #471d0a;
 }
